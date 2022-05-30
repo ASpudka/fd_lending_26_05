@@ -2,6 +2,7 @@
 :root{
   --accent-color: #34547A;
   --silver-color: #EEEFF1;
+  --content-color: #727272;
 
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -20,6 +21,18 @@ img{
   max-height: calc(1.5rem*var(--row-size));
   line-height: 1.5;
   overflow: hidden;
+  color: var(--content-color);
+}
+.format-text{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.btn{
+  padding: 5% 7%;
+background-color: var(--accent-color);
+  color: white;
+
 }
 
 @media screen and (min-width: 768px){

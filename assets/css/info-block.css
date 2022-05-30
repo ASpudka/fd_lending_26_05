@@ -1,0 +1,18 @@
+.info-block{
+width: 70vw;
+margin: auto;
+}
+.header-info-blok{
+padding: 5%; 
+font-size: 2rem;
+text-align: center;
+}
+.info-content{
+text-indent: 2rem;;  
+text-align: center;
+}
+@media screen and (min-width: 576px){
+  .info-block{
+    width: 50vw;
+}
+}
