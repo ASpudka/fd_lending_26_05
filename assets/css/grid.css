@@ -165,6 +165,9 @@
   .none-md{
     display: none;
   }
+ .no-space-md > *{
+  padding: 0;
+} 
   .container{
     width: 720px;
   }
