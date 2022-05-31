@@ -5,6 +5,7 @@
 }
 .row-offer{
   justify-content: space-around;
+ 
 }
  .offer-element {
   display: inline-block; 
@@ -21,4 +22,8 @@
 }
 .icon{
   background-image: url(./../../images/icon/clipboard-list.svg);
+}
+@media screen and (min-width: 768px){
+  .offer-element {
+  padding: 0;} 
 }
